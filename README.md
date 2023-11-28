@@ -42,3 +42,12 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 Replace 0.0.0.0 and 8000 with your desired host and port.
 
+
+## Requirements
+The project relies on the following Python packages, which are specified in the requirements.txt file:
+
+fastapi: The FastAPI framework for building APIs.
+boto3: The AWS SDK for Python, used for interacting with AWS services.
+uvicorn: ASGI server for running the FastAPI application.
+pytest: Testing framework for running tests.
+Make sure to check and install these dependencies before running the application
